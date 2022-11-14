@@ -1,0 +1,85 @@
+.cartContainer {
+  display: flex;
+}
+.listGroup {
+  flex: 8;
+}
+.rightbarCart {
+  flex: 4;
+  height: 88vh;
+  position: sticky;
+  top: 70px;
+  margin-top: 10px;
+}
+.listItemCart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.lists {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: beige;
+  border: 1px solid rgb(185, 182, 182);
+}
+.cartSideImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.cartsinglebody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightCartBody {
+  padding: 20px 15px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  height: 100%;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+.total {
+  display: block;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.checkout {
+  width: 100%;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(62, 62, 233);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.del {
+  font-size: 15px;
+  cursor: pointer;
+}
+.cartSelct {
+  width: 100px;
+  padding: 3px;
+  cursor: pointer;
+}
+.cartSelct option {
+  text-align: center;
+  cursor: pointer;
+}
+.checkout:disabled {
+  color: rgb(153, 146, 146);
+  background-color: rgb(199, 199, 241);
+  cursor: default;
+}

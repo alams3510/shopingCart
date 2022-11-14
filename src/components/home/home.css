@@ -1,0 +1,11 @@
+.mainContainer {
+  display: flex;
+  background-color: white;
+}
+.productContainer {
+  display: flex;
+  flex: 9;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}

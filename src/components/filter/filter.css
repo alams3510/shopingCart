@@ -1,0 +1,53 @@
+.filterContainer {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 60px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.filterWrapper {
+  width: 90%;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  margin-top: 20px;
+  height: 88vh;
+  margin-left: 10px;
+  padding-left: 30px;
+}
+h2 {
+  font-size: 30px;
+  font-family: serif;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.listItem {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.radio {
+  margin-right: 15px;
+}
+label {
+  cursor: pointer;
+}
+.listItem button {
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+}
+li span {
+  display: flex;
+  align-items: center;
+}
