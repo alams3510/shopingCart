@@ -1,12 +1,12 @@
 .singleprodContainer {
-  width: 30%;
-  margin-top: 20px;
+  flex: 8;
+  width: 200px;
+    margin: 10px;
   border: 1px solid rgb(243, 232, 232);
   background-color: whitesmoke;
 }
 .singleWrapper {
-  display: flex;
-  flex-direction: column;
+  width: 200px;
   height: 100%;
 }
 .topImg {
@@ -17,6 +17,10 @@
 .singlebody {
   margin-top: 15px;
   padding: 10px 20px;
+}
+.rotate{
+  display: flex;
+  
 }
 h3 {
   font-size: 25px;
@@ -56,4 +60,19 @@ p {
   color: white;
   cursor: pointer;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 500px){
+  .singleprodContainer{
+    width: 100%;
+  }
+  .singlebody{
+    width: 100%;
+  }
+  .topImg{
+    width: 100%;
+  }
+  .singleWrapper {
+    width: 100%;
+  }
 }

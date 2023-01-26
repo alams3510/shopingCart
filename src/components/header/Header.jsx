@@ -30,15 +30,16 @@ const Header = () => {
           }}
         />
         <div className="dropdownContainer">
-          <div
+          <button
             className="dropdown"
             onClick={() => {
               setShow(!show);
             }}
+            
           >
             <BsFillCartFill color="white" size={30} />
             <span>{cart.length}</span>
-          </div>
+          </button>
 
           {show && (
             <ul className="select ">
@@ -83,6 +84,7 @@ const Header = () => {
                 </div>
               )}
 
+             
               <Link
                 to="/cart"
                 className="gotocart"
@@ -90,8 +92,9 @@ const Header = () => {
                   setShow(!show);
                 }}
               >
-                Go to Cart
+               Go to Cart
               </Link>
+              
             </ul>
           )}
         </div>

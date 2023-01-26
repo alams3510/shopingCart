@@ -10,8 +10,9 @@ const SingleProduct = ({ prod }) => {
   return (
     <div className="singleprodContainer">
       <div className="singleWrapper">
-        <img src={prod.image} alt="img" className="topImg" />
         <div className="singlebody">
+        <img src={prod.image} alt="img" className="topImg" />
+
           <h3>{prod.name}</h3>
           <p>{prod.price}</p>
           <p>{prod.fastDelivery ? "Fast Delivery" : "7 days Delivery"}</p>

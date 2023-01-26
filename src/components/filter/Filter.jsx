@@ -17,7 +17,6 @@ const Filter = () => {
     <div className="filterContainer">
       <div className="filterWrapper">
         <h2>Filter Products</h2>
-
         <ul className="list">
           <li className="listItem">
             <input

@@ -3,10 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-@media (max-width: 771) {
+@media screen and (max-width: 671px) {
   .container {
-    height: 50px;
+    height: 40px;
   }
   .brandName {
     font-size: 20px;
@@ -14,4 +13,9 @@
   .searchInput {
     display: none;
   }
+  
+  
 }
+
+
+

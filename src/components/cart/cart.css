@@ -1,5 +1,6 @@
 .cartContainer {
   display: flex;
+ 
 }
 .listGroup {
   flex: 8;
@@ -26,10 +27,11 @@
   justify-content: space-around;
   background-color: beige;
   border: 1px solid rgb(185, 182, 182);
+
 }
 .cartSideImg {
-  width: 100px;
-  height: 100px;
+  width: 25%;
+  height: 25%;
   object-fit: cover;
 }
 .cartsinglebody {
@@ -82,4 +84,45 @@
   color: rgb(153, 146, 146);
   background-color: rgb(199, 199, 241);
   cursor: default;
+}
+
+
+@media screen and (max-width: 671px) {
+  .listGroup {
+    flex: 10;
+  }
+  .rightbarCart {
+    flex: 2;
+  }
+  .listItem{
+    font-size: 10px;
+  }
+ .lists{
+  padding: 1px;
+ }
+ .lists h4{
+    font-size: 12px;
+ }
+ .cartSelct {
+  width: 45px;
+  padding: 1px;
+}
+.rightCartBody {
+  padding: 0px 3px;
+}
+.heading{
+  font-size: 15px;
+}
+.total{
+  font-size: 12px;
+}
+.checkout {
+  width: 100%;
+  padding: 0px 5px;
+  font-size: 12px;
+}
+.cartSideImg{
+  width: 20%;
+  height: 20%;
+}
 }

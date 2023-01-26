@@ -1,22 +1,27 @@
 .filterContainer {
-  flex: 3;
+  flex: 3.5;
   height: calc(100vh - 50px);
   overflow-y: scroll;
   position: sticky;
   top: 60px;
+  z-index: 0;
+  
 }
 ::-webkit-scrollbar {
   width: 0px;
 }
 
 .filterWrapper {
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   background-color: rgb(17, 17, 17);
   color: white;
-  margin-top: 20px;
   height: 88vh;
-  margin-left: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
+position: relative;
+z-index: -1;
 }
 h2 {
   font-size: 30px;
@@ -50,4 +55,38 @@ label {
 li span {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 671px) {
+
+  .filterWrapper h2{
+    font-size: 20px;
+}
+
+.singleprodContainer{
+  width: 100%;
+}
+.topImg{
+  width: 100%;
+}
+
+.filterContainer{
+  height: 100vh;
+
+}
+.filterWrapper{
+  width: 100%;
+  padding-left: 5px;
+}
+.radio{
+  margin-right: 1px;
+}
+
+.listItem button{
+  width: 74%;
+  height: 40px;
+  font-size: 11px;
+  padding: 3px 5px;
+
+}
 }
